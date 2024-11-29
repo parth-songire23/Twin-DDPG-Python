@@ -93,13 +93,13 @@ agent_2 = Agent(
     ) 
 """
 agent_1.load_models(
-    load_file_actor = '/content/drive/MyDrive/WCL-pulish-code-master/agentss/Actor_UAV_ddpg',
-    load_file_critic ='/content/drive/MyDrive/WCL-pulish-code-master/agentss/Critic_G_and_Phi_ddpg'
+    load_file_actor = '/content/drive/MyDrive/Twin-DDPG-Python/agentss/Actor_UAV_ddpg',
+    load_file_critic ='/content/drive/MyDrive/Twin-DDPG-Python/agentss/Critic_G_and_Phi_ddpg'
     )
 """
 agent_2.load_models(
-    load_file_actor = '/content/drive/MyDrive/WCL-pulish-code-master/agentss/Actor_UAV_ddpg',
-    load_file_critic ='/content/drive/MyDrive/WCL-pulish-code-master/agentss/Critic_UAV_ddpg'
+    load_file_actor = '/content/drive/MyDrive/Twin-DDPG-Python/agentss/Actor_UAV_ddpg',
+    load_file_critic ='/content/drive/MyDrive/Twin-DDPG-Python/agentss/Critic_UAV_ddpg'
     )
 meta_dic = {}
 print("***********************system information******************************")
